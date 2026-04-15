@@ -48,7 +48,7 @@ export default function CategoryGrid() {
 
               {/* --- INDIVIDUAL CATEGORY BUTTON (Below Image) --- */}
               <Link 
-                href={`/collections/${cat.slug}`}
+                href={`/${cat.slug}`}
                 className="mt-3 w-full border border-[var(--color-foreground)] py-2 flex items-center justify-center text-[10px] uppercase tracking-[0.2em] font-medium transition-all duration-500 hover:bg-[var(--color-foreground)] hover:text-[var(--color-background)]"
               >
                 Explore {cat.title}
@@ -62,7 +62,7 @@ export default function CategoryGrid() {
           <div className="w-20 h-[1px] bg-[var(--color-muted)] mb-12 opacity-30" />
           
           <Link 
-            href="/collections/all"
+            href="/new-arrival"
             className="group relative px-16 py-6 bg-[var(--color-foreground)] text-[var(--color-background)] overflow-hidden"
           >
             <span className="relative z-10 text-[11px] uppercase tracking-[0.4em] font-bold">

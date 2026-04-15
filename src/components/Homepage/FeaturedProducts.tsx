@@ -68,7 +68,7 @@ export default function FeaturedProducts() {
         {/* --- CENTERED "EXPLORE ALL" BUTTON --- */}
         <div className="mt-24 md:mt-32 text-center">
           <Link 
-            href="/collections/new-arrivals"
+            href="/new-arrivals"
             className="inline-block px-12 py-5 bg-[var(--color-accent)] text-[var(--color-accent-foreground)] uppercase text-[11px] tracking-[0.3em] font-medium transition-all duration-[var(--duration-luxury)] ease-[var(--ease-apple)] hover:bg-transparent hover:text-[var(--color-foreground)] border border-transparent hover:border-[var(--color-foreground)]"
           >
             Explore All New Arrivals
