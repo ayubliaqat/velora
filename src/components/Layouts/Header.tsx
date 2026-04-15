@@ -10,7 +10,7 @@ const Header = () => {
   const pathname = usePathname();
 
   const navLinks = [
-    { name: 'New Arrivals', href: '/new-arrivals' },
+    { name: 'New Arrivals', href: '/new-arrival' },
     { name: 'Women', href: '/women' },
     { name: 'Men', href: '/men' },
     { name: 'Children', href: '/children' },

@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const shopLinks = [
-    { name: 'New Arrivals', href: '/new-arrivals' },
+    { name: 'New Arrivals', href: '/new-arrival' },
     { name: 'Men', href: '/men' },
     { name: 'Women', href: '/women' },
     { name: 'Children', href: '/children' },
