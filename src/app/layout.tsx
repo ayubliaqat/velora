@@ -2,10 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-// Components
-import Header from "@/components/Layouts/Header";
-import Footer from "@/components/Layouts/Footer";
-import SmoothScroll from "@/components/Layouts/SmoothScroll";
+// Component
 
 // Fonts
 const inter = Inter({
@@ -94,16 +91,12 @@ export default function RootLayout({
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-[var(--color-accent)] focus:text-[var(--color-accent-foreground)] focus:p-4"
         >
-          Skip to content
         </a>
 
-        <SmoothScroll>
-          <Header />
+        
           <main id="main-content" className="min-h-screen">
             {children}
           </main>
-          <Footer />
-        </SmoothScroll>
       </body>
     </html>
   );
