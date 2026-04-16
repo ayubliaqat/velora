@@ -1,9 +1,17 @@
+import Container from "@/components/ui/Container";
+import Section from "@/components/ui/Section";
+import Heading from "@/components/ui/Heading";
+import Text from "@/components/ui/Text";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-base">
-      <h1 className="text-3xl font-medium tracking-tight text-primary">
-        VELORA
-      </h1>
-    </main>
+    <Container>
+      <Section>
+        <Heading>VELORA</Heading>
+        <Text>
+          Minimal clothing brand with modern structure and clean identity.
+        </Text>
+      </Section>
+    </Container>
   );
 }
